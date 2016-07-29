@@ -104,7 +104,7 @@ a {
   font-size: 7.5em;
   height: 25vh;
   margin: 0;
-  line-height: 35vh;
+  margin-top: 7vh;
 }
 
 #seperate {
@@ -270,6 +270,7 @@ img {
   and (min-device-width: 320px) 
   and (max-device-width: 480px) {
 
+
     #main-text {
       height: 75vh;
       margin: 5vh 15vw 10vh 15vw;
@@ -280,7 +281,7 @@ img {
       height: 65vh;
       text-align: center;
       margin: 5vh 5vh;
-      border: 2px solid black;
+      border: 2px solid white;
     }
 
     #full-stack {
@@ -351,7 +352,7 @@ img {
       font-variant: small-caps;
       font-size: 2.6em;
       height: 20vh;
-      line-height: 30vh;
+      margin-top: 9vh;
     }
 
     #seperate {
@@ -371,9 +372,9 @@ img {
 
     #name {
       font-variant: small-caps;
-      font-size: 2.6em;
+      font-size: 2.3em;
       height: 20vh;
-      line-height: 30vh;
+      margin-top: 9vh;
     }
 
     #seperate {
@@ -388,6 +389,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 6.5em;
+      margin-top: 9vh;
+
       
     }
 
@@ -400,6 +403,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 6.5em;
+      margin-top: 9vh;
+
       
     }
 
@@ -412,6 +417,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 5.5em;
+      margin-top: 9vh;
+
       
     }
 
@@ -424,6 +431,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 5.5em;
+      margin-top: 9vh;
+
       
     }
 
@@ -437,6 +446,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 4.7em;
+      margin-top: 9vh;
+
       
     }
 
@@ -449,6 +460,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 4.7em;
+      margin-top: 9vh;
+
       
     }
 
@@ -462,6 +475,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 3.5em; 
+      margin-top: 9vh;
+
     }
 
 }
@@ -473,6 +488,8 @@ img {
     #name {
       font-variant: small-caps;
       font-size: 3.5em;
+      margin-top: 9vh;
+
       
     }
 
