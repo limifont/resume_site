@@ -23,6 +23,7 @@ body {
 
 #darken {
   /*background-color: rgba(65, 72, 92, .3);*/
+  background-color: rgba(0,0,0,.1);
   height: 100%;
 }
 
@@ -148,28 +149,10 @@ a {
   color: white;
 }
 
-#lin-photo {
-  width: 28vw;
-  float: left;
-  margin-right: 3vw;
-  border: 3px solid white;
-  overflow: hidden;
-}
-
-#lin-photo img {
-  width: 28vw;
-  height: auto;
-}
 
 #resume {
   height: 50vh;
-  /*min-height: 50vh;*/
-  /*display: flex;
-  flex-direction: column;*/
-  /*background-color: white;*/
   background-image: url('http://res.cloudinary.com/di0vizmtw/image/upload/v1469514264/43_v1cmcs.jpg');
-
-  /*background-image: url('http://res.cloudinary.com/di0vizmtw/image/upload/v1469599268/42_liqz07.jpg');*/
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,57 +165,34 @@ a {
   flex-direction: column;
   height: 60vh;
   text-align: center;
-  margin: 10vh 15vw 20vh 15vw;
-  font-family: 'Playfair Display';
-  font-weight: 300;
+  margin: 15vh 30vw 15vh 30vw;
 }
 
 #resume-title {
   text-align: center;
   font-family: 'Josefin Sans';
-  margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
-}
-
-#resume-title h2 {
-  margin-bottom: 1vh;
+  font-variant: small-caps;
+  cursor: pointer;
 }
 
 #resume-title a {
-  font-variant: small-caps;
+  height: 20vh;
+  line-height: 20vh;
+  font-size: 1.5em;
 }
-
-#paper {
-  width: 70vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  transition: box-shadow .25s;
-}
-
-#green {
-  width: 30vw;
-  float: left;
-  background-color: #D2DED4;
-  height: 100%;
-}
-
-#resume-btn {
-  height: 50vh;
-  /*background-image: url('http://res.cloudinary.com/di0vizmtw/image/upload/v1469742230/21_r6qzrx.jpg');*/
-  background-image: url('http://res.cloudinary.com/di0vizmtw/image/upload/v1469514264/43_v1cmcs.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-
 
 
 footer {
-  height: 25vh;
+  min-height: 25vh;
   background-color: #4E3A52;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h6 {
+  font-variant: small-caps;
 }
 
 #footer-bottom {
@@ -242,6 +202,23 @@ footer {
   color: #4E3A52;
   font-family: 'Playfair Display';
   font-weight: 300;
+}
+
+#contact-info {
+  color: rgb(200, 200, 200);
+  text-align: left;
+}
+
+#column-title {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%
+}
+
+.center {
+  text-align: center;
 }
 
 
@@ -296,6 +273,27 @@ footer {
 
 }
 
+
+@media screen 
+  and (max-width: 550px) {
+
+    img {
+      width: 70vw;
+      height: auto;
+      margin-bottom: 5vh;
+    }
+}
+
+
+@media only screen 
+  and (max-device-width: 550px) {
+
+    img {
+      width: 70vw;
+      height: auto;
+      margin-bottom: 5vh;
+    }
+}
 
 @media screen
   and (min-width: 320px) 
